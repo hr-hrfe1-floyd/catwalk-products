@@ -1,0 +1,25 @@
+{
+  "name": "catwalk-products",
+  "version": "1.0.0",
+  "description": "SDC Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hr-hrfe1-floyd/catwalk-products.git"
+  },
+  "author": "Adrian Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hr-hrfe1-floyd/catwalk-products/issues"
+  },
+  "homepage": "https://github.com/hr-hrfe1-floyd/catwalk-products#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "postgresql": "0.0.1"
+  }
+}
