@@ -15,6 +15,12 @@ app.get('/', (req, res) => {
 // get all products
 app.get('/products', db.getProducts);
 
+// get product information
+app.get('/products/:id', db.getProductInfo);
+
+// get product styles
+app.get('/products/:id/styles', db.getProductStyles);
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
